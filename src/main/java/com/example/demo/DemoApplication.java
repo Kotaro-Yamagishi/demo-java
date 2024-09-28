@@ -11,6 +11,8 @@ public class DemoApplication {
 	private static final Logger logger = LoggerFactory.getLogger(DemoApplication.class);
 
 	public static void main(String[] args) {
+		String url = System.getenv("SPRING_DATASOURCE_URL");
+		System.out.println(url);
 
 		// INFOレベルのログを出力
 		logger.info("This is an INFO message");
