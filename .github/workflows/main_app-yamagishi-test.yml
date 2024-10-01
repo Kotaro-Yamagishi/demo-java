@@ -51,4 +51,4 @@ jobs:
           app-name: 'app-yamagishi-test'
           slot-name: 'Production'
           package: '*.jar'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_D8EFA18E62F24B51A3D1A0665A7F04DD }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_919CDEDCAB514738BEB02C34D7746E8F }}
